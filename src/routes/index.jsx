@@ -3,7 +3,7 @@ import { createSignal } from 'solid-js';
 import { For } from 'solid-js'
 import { Show } from 'solid-js';
 import { createResource } from 'solid-js';
-import { supabase } from '../../server/Supabase';
+
 import Hero from '~/components/Hero';
 import { redirect } from 'solid-start';
 const apiKey = 'b1cb5f9ac574441a7b5b26e4c42f68c0';
