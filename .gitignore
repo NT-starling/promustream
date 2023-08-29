@@ -3,8 +3,8 @@
 .solid
 .output
 .vercel
-.netlify
-netlify
+
+
 
 # Environment
 .env

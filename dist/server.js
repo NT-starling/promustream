@@ -4,7 +4,7 @@ import require$$0$2 from 'tty';
 import require$$0$3 from 'util';
 import * as fs from 'fs';
 import fs__default, { readdirSync, statSync } from 'fs';
-import require$$4 from 'net';
+import require$$4 from 'net'
 import require$$7 from 'zlib';
 import { readFile } from 'fs/promises';
 import http from 'http';
