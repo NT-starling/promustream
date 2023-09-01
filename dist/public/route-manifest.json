@@ -1,0 +1,148 @@
+{
+  "/Search": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/Search-953a618f.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/Search-953a618f.js"
+      },
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/Search-38fec73a.css"
+      }
+    ]
+  },
+  "/*404": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/_...404_-c64212af.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/_...404_-c64212af.js"
+      },
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      }
+    ]
+  },
+  "/": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/index-1e6f4ffa.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/index-1e6f4ffa.js"
+      },
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/index-635e32d1.css"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/Search-38fec73a.css"
+      }
+    ]
+  },
+  "/preview/movie/:id": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/_id_-127eacfa.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/_id_-127eacfa.js"
+      },
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/_id_-6538f374.css"
+      }
+    ]
+  },
+  "/preview/tv/:id": {
+    "type": "route",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/_id_-a97d1907.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/_id_-a97d1907.js"
+      },
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/_id_-0b3ba089.css"
+      }
+    ]
+  },
+  "entry-client": {
+    "type": "entry",
+    "script": {
+      "type": "script",
+      "href": "/bstream/assets/entry-client-44acf969.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/bstream/assets/entry-client-44acf969.js"
+      },
+      {
+        "type": "style",
+        "href": "/bstream/assets/entry-client-99fa3624.css"
+      }
+    ]
+  },
+  "index.html": {
+    "type": "entry",
+    "assets": []
+  }
+}

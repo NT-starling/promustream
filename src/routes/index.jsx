@@ -18,7 +18,7 @@ const [overview,setOverview] = createSignal()
 const [title,setTitle] = createSignal()
 
 const [name,setName] = createSignal()
-
+const [id,setId] = createSignal()
 const [poster,setPoster] = createSignal()
 
 const [url,setUrl] = createSignal()
@@ -79,6 +79,7 @@ export default function Home() {
         setTitle(info.title)
         setOverview(info.overview)
         setPoster(info.poster_path)
+        setId(info.id)
     })
 
     console.log(recommendMovie().catch(error => {
@@ -97,7 +98,7 @@ export default function Home() {
         <div class='row-container'>
         <Show when={data()}> {}  
 
-            <Hero img = {poster()} name= {name()} title = {title()} overview = {overview()}></Hero>
+            <Hero img = {poster()} name= {name()} title = {title()} overview = {overview()} id = {id()}></Hero>
 
             <For each={data().results}>{(movie) =>
               
@@ -107,7 +108,7 @@ export default function Home() {
              
 
 
-              <a className="card w-96 bg-secondary shadow-xl image-full m-2" href={'/preview/' + 'movie' + '/' + movie.id} id='row'>
+              <a className="card w-96 bg-base-100 shadow-xl image-full m-2" href={'/preview/' + 'movie' + '/' + movie.id} id='row'>
                   <figure><img src={'https://image.tmdb.org/t/p/original' + movie.poster_path} alt="Shoes" /></figure>
                   <div className="card-body">
                     <h2 class="card-title">{movie.name}</h2>

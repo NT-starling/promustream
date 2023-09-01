@@ -1,0 +1,90 @@
+{
+  "Search.css": {
+    "file": "assets/Search-38fec73a.css",
+    "src": "Search.css"
+  },
+  "src/entry-client.css": {
+    "file": "assets/entry-client-99fa3624.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.jsx": {
+    "css": [
+      "assets/entry-client-99fa3624.css"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].jsx",
+      "src/routes/index.jsx",
+      "src/routes/preview/movie/[id].jsx",
+      "src/routes/preview/tv/[id].jsx",
+      "src/routes/Search.jsx"
+    ],
+    "file": "assets/entry-client-44acf969.js",
+    "isEntry": true,
+    "src": "src/entry-client.jsx"
+  },
+  "src/routes/Search.jsx": {
+    "css": [
+      "assets/Search-38fec73a.css"
+    ],
+    "file": "assets/Search-953a618f.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/Search.jsx"
+  },
+  "src/routes/[...404].jsx": {
+    "file": "assets/_...404_-c64212af.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].jsx"
+  },
+  "src/routes/index.css": {
+    "file": "assets/index-635e32d1.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/index.jsx": {
+    "css": [
+      "assets/index-635e32d1.css",
+      "assets/Search-38fec73a.css"
+    ],
+    "file": "assets/index-1e6f4ffa.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.jsx"
+  },
+  "src/routes/preview/movie/[id].css": {
+    "file": "assets/_id_-6538f374.css",
+    "src": "src/routes/preview/movie/[id].css"
+  },
+  "src/routes/preview/movie/[id].jsx": {
+    "css": [
+      "assets/_id_-6538f374.css"
+    ],
+    "file": "assets/_id_-127eacfa.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/preview/movie/[id].jsx"
+  },
+  "src/routes/preview/tv/[id].css": {
+    "file": "assets/_id_-0b3ba089.css",
+    "src": "src/routes/preview/tv/[id].css"
+  },
+  "src/routes/preview/tv/[id].jsx": {
+    "css": [
+      "assets/_id_-0b3ba089.css"
+    ],
+    "file": "assets/_id_-a97d1907.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/preview/tv/[id].jsx"
+  }
+}

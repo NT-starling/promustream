@@ -24,7 +24,7 @@ export default function Root() {
       ? "border-sky-600"
       : "border-transparent hover:border-sky-600";
   return (
-    <Html lang="en" data-theme="cupcake">
+    <Html lang="en" data-theme="night">
       <Head>
         <Title>SolidStart - With TailwindCSS</Title>
         <Meta charset="utf-8" />

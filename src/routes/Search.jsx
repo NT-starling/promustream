@@ -112,7 +112,7 @@ function Search() {
 
 
 
-              <a className="card w-96 bg-secondary shadow-xl image-full m-2" href={'/preview/' + movie.media_type + '/' + movie.id} id='row'>
+              <a className="card w-96 bg-base-100 shadow-xl image-full m-2" href={'/preview/' + movie.media_type + '/' + movie.id} id='row'>
                   <figure><img src={'https://image.tmdb.org/t/p/original' + movie.poster_path} alt="Shoes" /></figure>
                   <div className="card-body">
                     <h2 class="card-title">{movie.name}</h2>

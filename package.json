@@ -1,26 +1,32 @@
 {
-  "name": "prowatch",
+  "homepage": "https://nt-starling.github.io/bstream",
+  "name": "prostream",
   "scripts": {
     "dev": "solid-start dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "solid-start build",
     "start": "solid-start start"
   },
   "type": "module",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "daisyui": "^3.6.1",
-    "postcss": "^8.4.26",
+    "autoprefixer": "^10.4.15",
+    "daisyui": "^3.6.4",
+    "esbuild": "^0.14.54",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.29",
     "solid-start-static": "^0.3.5",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.6"
+    "vite": "^4.4.9"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.5",
-    "@solidjs/router": "^0.8.2",
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
     "solid-js": "^1.7.11",
-    "solid-start": "^0.3.4"
+    "solid-start": "^0.3.5",
+    "solid-start-netlify": "^0.3.5"
   },
   "engines": {
-    "node": "18"
+    "node": ">=18"
   }
 }

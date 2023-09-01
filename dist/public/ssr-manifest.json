@@ -1,0 +1,86 @@
+{
+  "\u0000vite/preload-helper": [
+  ],
+  "node_modules/@solidjs/meta/dist/index.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/components.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/integration.js": [
+  ],
+  "node_modules/@solidjs/router/dist/lifecycle.js": [
+  ],
+  "node_modules/@solidjs/router/dist/routing.js": [
+  ],
+  "node_modules/@solidjs/router/dist/utils.js": [
+  ],
+  "node_modules/solid-js/dist/solid.js": [
+  ],
+  "node_modules/solid-js/web/dist/web.js": [
+  ],
+  "node_modules/solid-start/entry-client/StartClient.tsx": [
+  ],
+  "node_modules/solid-start/entry-client/mount.tsx": [
+  ],
+  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+  ],
+  "node_modules/solid-start/islands/useLocation.tsx": [
+  ],
+  "node_modules/solid-start/root/Document.tsx": [
+  ],
+  "node_modules/solid-start/root/FileRoutes.tsx": [
+  ],
+  "node_modules/solid-start/root/Scripts.tsx": [
+  ],
+  "node_modules/solid-start/router.tsx": [
+  ],
+  "node_modules/solid-start/server/ServerContext.tsx": [
+  ],
+  "node_modules/solid-start/server/types.tsx": [
+  ],
+  "src/components/Hero.jsx": [
+    "/bstream/assets/index-1e6f4ffa.js",
+    "/bstream/assets/index-635e32d1.css",
+    "/bstream/assets/Search-38fec73a.css"
+  ],
+  "src/components/Navbar.jsx": [
+  ],
+  "src/entry-client.jsx": [
+  ],
+  "src/root.css": [
+  ],
+  "src/root.jsx": [
+  ],
+  "src/routes/Home.css": [
+    "/bstream/assets/index-1e6f4ffa.js",
+    "/bstream/assets/index-635e32d1.css",
+    "/bstream/assets/Search-38fec73a.css"
+  ],
+  "src/routes/Search.jsx": [
+    "/bstream/assets/Search-953a618f.js",
+    "/bstream/assets/Search-38fec73a.css"
+  ],
+  "src/routes/[...404].jsx": [
+    "/bstream/assets/_...404_-c64212af.js"
+  ],
+  "src/routes/index.jsx": [
+    "/bstream/assets/index-1e6f4ffa.js",
+    "/bstream/assets/index-635e32d1.css",
+    "/bstream/assets/Search-38fec73a.css"
+  ],
+  "src/routes/preview/movie/Series.css": [
+    "/bstream/assets/_id_-127eacfa.js",
+    "/bstream/assets/_id_-6538f374.css"
+  ],
+  "src/routes/preview/movie/[id].jsx": [
+    "/bstream/assets/_id_-127eacfa.js",
+    "/bstream/assets/_id_-6538f374.css"
+  ],
+  "src/routes/preview/tv/Series.css": [
+    "/bstream/assets/_id_-a97d1907.js",
+    "/bstream/assets/_id_-0b3ba089.css"
+  ],
+  "src/routes/preview/tv/[id].jsx": [
+    "/bstream/assets/_id_-a97d1907.js",
+    "/bstream/assets/_id_-0b3ba089.css"
+  ]
+}
